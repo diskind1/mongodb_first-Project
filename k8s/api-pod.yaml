@@ -8,7 +8,8 @@ spec:
   containers:
   - name: api
     image: mennidiskind/contacts-api:v1
-    imagePullPolicy: Always
+    imagePullPolicy: IfNotPresent
+
     ports:
     - containerPort: 8000
     env:
