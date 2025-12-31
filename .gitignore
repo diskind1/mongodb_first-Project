@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+.env
+.venv/
+venv/
+ENV/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+/app/data_access/
+/app/entities/
+# /app/db_interactor.py
+# /app/api.py
+# compose.yaml
